@@ -1,0 +1,15 @@
+{
+  "name": "xx-dict",
+  "version": "0.0.1",
+  "description": "a quick shell dict",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "makcy",
+  "license": "MIT"
+}
