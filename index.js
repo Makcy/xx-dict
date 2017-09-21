@@ -1,1 +1,1 @@
-module.exports = require('./lib/lookup');
+module.exports = require('./src/lookup');

@@ -1,18 +1,23 @@
 {
   "name": "xx-dict",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "a quick shell dict",
+  "keywords": [
+    "dict",
+    "geek"
+  ],
   "main": "index.js",
   "directories": {
-    "lib": "lib",
+    "src": "src",
     "test": "test"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "xx": "./index.js"
+    "xx": "./bin/cli"
   },
+  "preferGlobal": true,
   "author": "makcy",
   "license": "MIT",
   "dependencies": {
