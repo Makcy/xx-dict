@@ -1,0 +1,5 @@
+#!/usr/bin/env node 
+
+var repl = require('repl');
+var r = repl.start('> ');
+var c = r.context ;
