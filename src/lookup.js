@@ -1,5 +1,6 @@
 const ora = require('ora');
+const cliSpinner = require('cli-spinners');
 
 module.exports = () => {
-  console.log('Hello LookUp');
+  console.log('Look Up...');
 };

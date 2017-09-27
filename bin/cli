@@ -1,5 +1,16 @@
 #!/usr/bin/env node 
 
-var repl = require('repl');
-var r = repl.start('> ');
-var c = r.context ;
+'use strict';
+
+const program = require('commander');
+const {
+  lookup
+} = require('../index');
+// var repl = require('repl');
+// var r = repl.start('> ');
+// var c = r.context ;
+
+program
+  .action(function () {
+    lookup();
+  }) 
