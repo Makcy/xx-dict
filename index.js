@@ -1,3 +1,3 @@
 'use strict';
 
-exports = require('./src/lookup');
+module.exports = require('./src/lookup');

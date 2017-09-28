@@ -1,16 +1,20 @@
-#!/usr/bin/env node 
+#!/usr/bin/env node
 
 'use strict';
 
 const program = require('commander');
-const {
-  lookup
-} = require('../index');
-// var repl = require('repl');
-// var r = repl.start('> ');
-// var c = r.context ;
+const pkg = require('../package.json');
+const lookup = require('../index');
+
 
 program
-  .action(function () {
-    lookup();
-  }) 
+.description(pkg.description)
+.version(pkg.version)
+.usage('<word>')
+.parse(process.argv)
+
+lookup(program.args[0]);
+
+if (process.argv.length === 2) {
+  program.help();
+}
