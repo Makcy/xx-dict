@@ -1,1 +1,3 @@
-A shell dict 
+查查字典 
+
+xx <word>
