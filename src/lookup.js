@@ -5,6 +5,7 @@ const isChinese = require('is-chinese')
 
 function lookup(word) {
   //  TODO: Ugly Code！！！
+  if (!word) return;
   const isCn = isChinese(word);
   const URL = isCn ? `http://dict.youdao.com/w/eng/${urlencode(word)}`:`http://dict.youdao.com/w/${word}`
   request(URL, (err, response, body) => {
