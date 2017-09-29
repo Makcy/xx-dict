@@ -1,3 +1,8 @@
 查查字典 
 
-xx <word>
+A Quick Shell Dict For Geek
+
+yarn global add xx-dict
+
+Usage: xx [word]
+
