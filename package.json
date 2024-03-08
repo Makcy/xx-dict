@@ -1,6 +1,6 @@
 {
   "name": "xx-dict",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a quick shell dict",
   "main": "index.js",
   "keywords": [
