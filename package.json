@@ -2,13 +2,17 @@
   "name": "xx-dict",
   "version": "1.0.3",
   "description": "a quick shell dict",
+  "main": "index.js",
   "keywords": [
     "dict",
     "geek"
   ],
   "repository": "https://github.com/Makcy/xx-dict",
   "homepage": "https://github.com/Makcy/xx-dict#readme",
-  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "license": "MIT",
   "directories": {
     "src": "src",
     "test": "test"
@@ -20,8 +24,7 @@
     "xx": "./bin/cli"
   },
   "preferGlobal": true,
-  "author": "makcy",
-  "license": "MIT",
+  "author": "Makcy (https://github.com/Makcy)",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "cli-spinners": "^1.0.0",
@@ -29,5 +32,17 @@
     "ora": "^1.3.0",
     "request": "^2.82.0",
     "urlencode": "^1.1.0"
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release ${version}",
+      "tagName": "v${version}"
+    },
+    "npm": {
+      "publish": true
+    },
+    "github": {
+      "release": false
+    }
   }
 }
