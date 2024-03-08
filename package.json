@@ -1,8 +1,10 @@
 {
   "name": "xx-dict",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a quick shell dict",
   "main": "index.js",
+  "module": "lib/module/index",
+  "source": "index",
   "keywords": [
     "dict",
     "geek"
@@ -23,7 +25,6 @@
   "bin": {
     "xx": "./bin/cli"
   },
-  "preferGlobal": true,
   "author": "Makcy (https://github.com/Makcy)",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
