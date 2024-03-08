@@ -1,13 +1,13 @@
 {
   "name": "xx-dict",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "a quick shell dict",
   "keywords": [
     "dict",
     "geek"
   ],
-  "repository": "https://github.com/makcy/xx-dict",
-  "homepage": "https://github.com/makcy/xx-dict#readme",
+  "repository": "https://github.com/Makcy/xx-dict",
+  "homepage": "https://github.com/Makcy/xx-dict#readme",
   "main": "index.js",
   "directories": {
     "src": "src",
