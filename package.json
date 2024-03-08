@@ -1,6 +1,6 @@
 {
   "name": "xx-dict",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "a quick shell dict",
   "main": "index.js",
   "module": "lib/module/index",
@@ -11,6 +11,9 @@
   ],
   "repository": "https://github.com/Makcy/xx-dict",
   "homepage": "https://github.com/Makcy/xx-dict#readme",
+  "bugs": {
+    "url": "https://github.com/Makcy/xx-dict/issues"
+  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
